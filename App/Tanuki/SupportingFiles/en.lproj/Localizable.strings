@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  Tanuki
+
+  Created by Constantin on 03.07.2023.
+  
+*/
+"TabBar.main" = "Главная";
+"TabBar.search" = "Поиск";
+"TabBar.cart" = "Корзина";
+"TabBar.account" = "Аккаунт";
+
+"SystemImage.main" = "pentagon";
+"SystemImage.search" = "magnifyingglass";
+"SystemImage.cart" = "basket";
+"SystemImage.account" = "person.circle";
+"SystemImage.location" = "location.fill";
+"SystemImage.heart" = "heart";
+"SystemImage.heartFill" = "heart.fill";
+"SystemImage.xmark" = "xmark";
+"SystemImage.minus" = "minus";
+"SystemImage.plus" = "plus";
+
+"Cuisine.bakery" = "Пекарни \nи кондитерские ";
+"Cuisine.fastfood" = "Фастфуд";
+"Cuisine.asian" = "Азиатская кухня";
+"Cuisine.soups" = "Супы";
+
+"Location.city" = "Санкт-Петербург";
+"Location.date" = "dd MMMM, yyyy";
+"Location.currency" = " ₽";
+"Location.unit" = "г";
+"Location.separator" = " · ";
+"Location.whitespace" = " ";
+
+"Category.dish1" = "Рыба с овощами \nи рисом";
+"Category.dish2" = "Зеленый салат\n";
+"Category.dish3" = "Рулеты из \nветчины";
+"Category.dish4" = "Салат по \nвосточному";
+"Category.dish5" = "Рис с овощами\n";
+"Category.dish6" = "Тортеллини\n";
+
+"Tag.all" = "Все меню";
+"Tag.salad" = "Салаты";
+"Tag.rice" = "С рисом";
+"Tag.fish" = "С рыбой";
+"Tag.roll" = "Роллы";
+
+"Button.addCart" = "Добавить в корзину";
+"Button.pay" = "Оплатить";
+
+"NotificationCenter.cartUpdated" = "cartUpdated";
+
+"FatalError.required" = "init(coder:) has not been implemented";
+"FatalError.cell" = "Unable to dequeue Cell";
+
+"Cell.cart" = "CartCell";
+"Cell.category" = "CategoryCell";
+"Cell.categoryHeader" = "CategoryHeaderView";
+
+"Cart.order" = "№ 100730";
+"Cart.number" = "Ваш заказ принят!";
+"Cart.ok" = "Ok";
