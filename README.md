@@ -3,9 +3,13 @@
 </div>
 
 ## Task
+
 Реализовать приложение согласно [макету](https://www.figma.com/file/fSVhgQTluvoqkAa6ZnpQQO/Тестовое-приложение_ios?type=design&node-id=0-1&mode=design&t=mT0Gt3NZ6Bky4u1B-0)
 
 ## Result
+
+### [Video](https://www.youtube.com/watch?v=-s01oSBbMGI)
+
 <img src="images/step1.png" width="300" style="border: 1px solid black; margin-right: 10px;">
 <img src="images/step2.png" width="300" style="border: 1px solid black;">
 
