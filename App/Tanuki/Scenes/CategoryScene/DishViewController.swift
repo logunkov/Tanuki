@@ -133,7 +133,7 @@ final class DishViewController: UIViewController {
 
 	init(_ dish: Dish) {
 		self.dish = dish
-		self.imageView.image = dish.image
+		self.imageView.image = dish.getImage()
 		self.name.text = dish.name.filterN()
 		self.descriptionLabel.text = dish.description
 		self.price.text = String(dish.price) + L10n.Location.currency

@@ -43,14 +43,6 @@ internal struct ColorAsset {
 
 internal enum Asset {
   internal static let accentColor = ColorAsset(name: "AccentColor")
-  internal enum Category {
-    internal static let dish1 = ImageAsset(name: "dish1")
-    internal static let dish2 = ImageAsset(name: "dish2")
-    internal static let dish3 = ImageAsset(name: "dish3")
-    internal static let dish4 = ImageAsset(name: "dish4")
-    internal static let dish5 = ImageAsset(name: "dish5")
-    internal static let dish6 = ImageAsset(name: "dish6")
-  }
   internal enum Cuisine {
     internal static let asian = ImageAsset(name: "Asian")
     internal static let bakery = ImageAsset(name: "Bakery")
@@ -66,12 +58,6 @@ internal enum Asset {
     accentColor,
   ]
   internal static let allImages: [ImageAsset] = [
-    Category.dish1,
-    Category.dish2,
-    Category.dish3,
-    Category.dish4,
-    Category.dish5,
-    Category.dish6,
     Cuisine.asian,
     Cuisine.bakery,
     Cuisine.fastfood,

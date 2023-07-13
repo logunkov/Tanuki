@@ -162,7 +162,9 @@ final class CartCell: UITableViewCell {
 			stackViewMain.bottomAnchor.constraint(
 				equalTo: contentView.bottomAnchor,
 				constant: -Sizes.Medium.halfpadding
-			)
+			),
+			imageCart.heightAnchor.constraint(equalToConstant: Sizes.Medium.imageCell),
+			imageCart.widthAnchor.constraint(equalToConstant: Sizes.Medium.imageCell)
 		])
 	}
 

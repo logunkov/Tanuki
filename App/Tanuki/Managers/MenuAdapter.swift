@@ -21,14 +21,10 @@ final class MenuAdapter: IMenuAdapter {
 	// Меню.
 	private let menu: [Dish]
 
-	// Репозиторий с меню.
-	private let menuRepository: IMenuRepository
-
 	// MARK: - Lifecycle
 
 	init() {
-		menuRepository = MenuRepositoryStub()
-		menu = menuRepository.getMenu()
+		menu = MenuRepository.shared.getMenu()
 	}
 
 	// MARK: - Internal Methods

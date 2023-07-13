@@ -22,21 +22,6 @@ internal enum L10n {
     internal static let order = L10n.tr("Localizable", "Cart.order")
   }
 
-  internal enum Category {
-    /// Рыба с овощами \nи рисом
-    internal static let dish1 = L10n.tr("Localizable", "Category.dish1")
-    /// Зеленый салат\n
-    internal static let dish2 = L10n.tr("Localizable", "Category.dish2")
-    /// Рулеты из \nветчины
-    internal static let dish3 = L10n.tr("Localizable", "Category.dish3")
-    /// Салат по \nвосточному
-    internal static let dish4 = L10n.tr("Localizable", "Category.dish4")
-    /// Рис с овощами\n
-    internal static let dish5 = L10n.tr("Localizable", "Category.dish5")
-    /// Тортеллини\n
-    internal static let dish6 = L10n.tr("Localizable", "Category.dish6")
-  }
-
   internal enum Cell {
     /// CartCell
     internal static let cart = L10n.tr("Localizable", "Cell.cart")
@@ -129,6 +114,11 @@ internal enum L10n {
     internal static let roll = L10n.tr("Localizable", "Tag.roll")
     /// Салаты
     internal static let salad = L10n.tr("Localizable", "Tag.salad")
+  }
+
+  internal enum Url {
+    /// https://github.com/logunkov/Tanuki/raw/main/JSON/dishes.json
+    internal static let dishes = L10n.tr("Localizable", "URL.dishes")
   }
 }
 

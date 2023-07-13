@@ -33,13 +33,6 @@
 "Location.separator" = " · ";
 "Location.whitespace" = " ";
 
-"Category.dish1" = "Рыба с овощами \nи рисом";
-"Category.dish2" = "Зеленый салат\n";
-"Category.dish3" = "Рулеты из \nветчины";
-"Category.dish4" = "Салат по \nвосточному";
-"Category.dish5" = "Рис с овощами\n";
-"Category.dish6" = "Тортеллини\n";
-
 "Tag.all" = "Все меню";
 "Tag.salad" = "Салаты";
 "Tag.rice" = "С рисом";
@@ -61,3 +54,5 @@
 "Cart.order" = "№ 100730";
 "Cart.number" = "Ваш заказ принят!";
 "Cart.ok" = "Ok";
+
+"URL.dishes" = "https://github.com/logunkov/Tanuki/raw/main/JSON/dishes.json";

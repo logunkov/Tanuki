@@ -17,6 +17,10 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		willConnectTo session: UISceneSession,
 		options connectionOptions: UIScene.ConnectionOptions
 	) {
+
+		// Загрузка меню.
+		MenuRepository.shared.fetchMenu()
+
 		// Проверяем, что сцена является окном.
 		guard let winScene = (scene as? UIWindowScene) else { return }
 

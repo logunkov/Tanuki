@@ -24,6 +24,7 @@
 		BDA2E2602A541A6000F9F59F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2E25C2A541A6000F9F59F /* CategoryViewController.swift */; };
 		BDA2E2652A550B4F00F9F59F /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2E2642A550B4F00F9F59F /* MainPresenter.swift */; };
 		BDA2E2672A55199500F9F59F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2E2662A55199500F9F59F /* CategoryCell.swift */; };
+		BDBFF57E2A5FF007005302BC /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFF57D2A5FF007005302BC /* ImageCache.swift */; };
 		BDD76FDF2A554F9200DC9E37 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD76FDE2A554F9200DC9E37 /* Repository.swift */; };
 		BDD76FE12A55507F00DC9E37 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD76FE02A55507F00DC9E37 /* Dish.swift */; };
 		BDD76FE32A55C76700DC9E37 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD76FE22A55C76700DC9E37 /* CategoryHeader.swift */; };
@@ -92,6 +93,7 @@
 		BDA2E25C2A541A6000F9F59F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		BDA2E2642A550B4F00F9F59F /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		BDA2E2662A55199500F9F59F /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BDBFF57D2A5FF007005302BC /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		BDD76FDE2A554F9200DC9E37 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		BDD76FE02A55507F00DC9E37 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		BDD76FE22A55C76700DC9E37 /* CategoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
@@ -214,8 +216,8 @@
 				BDFA63292A52ADFD003ED044 /* SwiftGen */,
 				BD95D2E22A52A86400A15DC2 /* Assets.xcassets */,
 				BD95D2E42A52A86400A15DC2 /* LaunchScreen.storyboard */,
-				BD95D2E72A52A86400A15DC2 /* Info.plist */,
 				BDFA633F2A52B1FF003ED044 /* Localizable.strings */,
+				BD95D2E72A52A86400A15DC2 /* Info.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -249,6 +251,7 @@
 				BDF6D74F2A53B7670061430B /* CoreLocation.swift */,
 				BDD76FDE2A554F9200DC9E37 /* Repository.swift */,
 				BDD76FE62A5696B900DC9E37 /* MenuAdapter.swift */,
+				BDBFF57D2A5FF007005302BC /* ImageCache.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -535,6 +538,7 @@
 				BDF6D74E2A53B6C90061430B /* NavigationItemView.swift in Sources */,
 				BDF6D7472A53B4530061430B /* UIStackView+Extensions.swift in Sources */,
 				BDF6D74B2A53B4820061430B /* UIColor+Dynamic.swift in Sources */,
+				BDBFF57E2A5FF007005302BC /* ImageCache.swift in Sources */,
 				BDFA635F2A52BFC3003ED044 /* CartAssembler.swift in Sources */,
 				BDD76FE12A55507F00DC9E37 /* Dish.swift in Sources */,
 				BD95D2DA2A52A86400A15DC2 /* AppDelegate.swift in Sources */,

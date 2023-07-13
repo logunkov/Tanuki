@@ -110,7 +110,7 @@ extension CategoryViewController: UICollectionViewDataSource, UICollectionViewDe
 		else {
 			fatalError(L10n.FatalError.cell)
 		}
-		cell.imageView.image = menu[indexPath.item].image
+		cell.imageView.image = menu[indexPath.item].getImage()
 		cell.label.text = menu[indexPath.item].name
 
 		return cell

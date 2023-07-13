@@ -16,6 +16,8 @@ enum Sizes {
 		static let halfpadding: CGFloat = 8
 		static let cornerRadius: CGFloat = 16
 		static let image: CGFloat = 300
+		static let imageCell: CGFloat = 95
+		static let multi = 3
 	}
 
 	enum Table {

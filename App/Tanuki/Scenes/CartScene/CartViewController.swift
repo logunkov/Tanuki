@@ -130,7 +130,7 @@ extension CartViewController: UITableViewDelegate, UITableViewDataSource {
 		}
 
 		let cart = Cart.shared.showCart()[indexPath.row]
-		cell.imageCart.image = cart.image
+		cell.imageCart.image = cart.getImage()
 		cell.name.text = cart.name
 		cell.price.text = String(cart.price) + L10n.Location.currency
 		cell.weight.text = L10n.Location.separator + String(cart.weight) + L10n.Location.unit
