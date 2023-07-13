@@ -1,0 +1,50 @@
+[
+	{
+		"url": "https://github.com/logunkov/Tanuki/raw/main/JSON/dish1.png",
+		"weight":560,
+		"price":799,
+		"tag":["С рисом","С рыбой"],
+		"description":"Свежая рыба, обжаренная на сковороде с разнообразными овощами. \nПодается с приготовленным рисом.",
+		"name":"Рыба с овощами \nи рисом"
+	},
+	{
+		"url":"https://github.com/logunkov/Tanuki/raw/main/JSON/dish2.png",
+		"weight":150,
+		"price":699,
+		"tag":["Салаты"],
+		"description":"Свежие листья салата, с добавлением разнообразных зеленых овощей. \nПодается с дрессингом на выбор.",
+		"name":"Зеленый салат\n"
+	},
+	{
+		"url":"https://github.com/logunkov/Tanuki/raw/main/JSON/dish3.png",
+		"weight":100,
+		"price":599,
+		"tag":["Роллы"],
+		"description":"Тонкие ломтики ветчины, завернутые в рулеты с начинкой из крем-сыра. \nПодается в холодном или горячем виде.",
+		"name":"Рулеты из \nветчины"
+	},
+	{
+		"url":"https://github.com/logunkov/Tanuki/raw/main/JSON/dish4.png",
+		"weight":200,
+		"price":499,
+		"tag":["Салаты"],
+		"description":"Салат, приготовленный по восточному рецепту, с использованием разнообразных специй и соусов.",
+		"name":"Салат по \nвосточному"
+	},
+	{
+		"url":"https://github.com/logunkov/Tanuki/raw/main/JSON/dish5.png",
+		"weight":200,
+		"price":399,
+		"tag":["С рисом"],
+		"description":"Рис с добавлением разнообразных овощей. \nПодается как отдельное блюдо или как гарнир к мясу или рыбе.",
+		"name":"Рис с овощами\n"
+	},
+	{
+		"url":"https://github.com/logunkov/Tanuki/raw/main/JSON/dish6.png",
+		"weight":150,
+		"price":299,
+		"tag":[],
+		"description":"Традиционная итальянская паста в форме больших пирожков, наполненных различными начинками. \nПодается с соусом на выбор.",
+		"name":"Тортеллини\n"
+	}
+]
