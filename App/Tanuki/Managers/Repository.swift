@@ -36,7 +36,7 @@ final class MenuRepository {
 
 		// Загружаем данные JSON файла
 		let session = URLSession.shared.dataTask(with: url) { [weak self] data, _, _ in
-			DispatchQueue.global().async {
+			DispatchQueue.main.async {
 				guard let self = self else { return }
 				guard let data = data else { return }
 
