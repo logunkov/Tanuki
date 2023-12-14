@@ -18,6 +18,7 @@ final class MenuRepository {
 
 	private var dishes = [Dish]()
 	private var menu = [Dish]()
+	private let lock = NSLock()
 
 	// MARK: - Lifecycle
 
@@ -35,25 +36,23 @@ final class MenuRepository {
 		guard let url = URL(string: L10n.Url.dishes) else { return }
 
 		// Загружаем данные JSON файла
+		lock.lock()
 		let session = URLSession.shared.dataTask(with: url) { [weak self] data, _, _ in
-			DispatchQueue.main.async {
-				guard let self = self else { return }
-				guard let data = data else { return }
+			guard let self = self else { return }
+			guard let data = data else { return }
 
-				do {
-					// Распарсиваем данные в массив объектов.
-					let dishesJSON = try JSONDecoder().decode([Dish].self, from: data)
-
-					// Заполняем блюдами из JSON файла.
-					self.dishes = dishesJSON
-
-					self.dishes.forEach { dish in
-						dish.loadImage()
-					}
-				} catch {
-				}
-				self.menu = Array(repeating: self.dishes, count: Sizes.Medium.multi).flatMap { $0 }
+			// Распарсиваем данные в массив объектов.
+			if let dishesJSON = try? JSONDecoder().decode([Dish].self, from: data) {
+				// Заполняем блюдами из JSON файла.
+				self.dishes = dishesJSON
 			}
+
+			self.dishes.forEach { dish in
+				dish.loadImage()
+			}
+
+			self.menu = Array(repeating: self.dishes, count: Sizes.Medium.multi).flatMap { $0 }
+			self.lock.unlock()
 		}
 		session.resume()
 	}
